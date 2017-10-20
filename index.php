@@ -27,19 +27,23 @@ require __DIR__.'/functions.php';
 
       <h2>An epic way to make your body a huge temple</h2>
 
+      <!-- <img class="image" src="images/dannybro.jpg" alt="dannybroflex"> -->
 
+      <?php foreach ($coaches as $coach): ?>
       <div class="container">
-        <?php foreach ($coaches as $coach): ?>
           <div class="coach">
-            <div class="title"><?php echo $coach['title']; ?></div>
-            <div class="content"><?php echo $coach['content']; ?></div>
-            <div class="author"><?php echo $coach['author']; ?></div>
+            <div class="title"><h3><?php echo $coach['title']; ?></h3></div>
+            <div class="content"><p><?php echo $coach['content']; ?></p></div>
+            <div class="author"><h4><?php echo $coach['author']; ?></h4></div>
             <div class="date"><?php echo $coach['date']; ?></div>
             <div class="counter"><?php echo $coach['counter']; ?></div>
           </div>
-        <?php endforeach; ?>
       </div>
+      <?php endforeach; ?>
 
-    </div>
+
+
+
+      </div>
     </body>
 </html>
