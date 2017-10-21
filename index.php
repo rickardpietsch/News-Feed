@@ -23,13 +23,27 @@ require __DIR__.'/functions.php';
     <body>
       <div class="wrapper">
 
-        <div class="navigation">
-          <h1>Fysiken Crossfit Blog</h1>
+        <div class="top-nav">
+          <div class="left-nav">
+            <a href="https://www.facebook.com/FysikenCrossFit/">Facebook</a>
+            <a href="https://www.instagram.com/fysikencrossfit/">Instagram</a>
+          </div>
+
+          <div class="center-nav">
+            <h1>Fysiken Crossfit Blog</h1>
+          </div>
+
+          <div class="right-nav">
+            <a id="fysiken" href="https://www.fysiken.nu/">www.fysiken.nu</a>
+            <p id="telephone">Tel: 031-10 69 30</p>
+          </div>
         </div>
 
-      <h2>An epic way to make your body a huge temple</h2>
+        <h2>An epic way to make your body a huge temple</h2>
 
-      <!-- <img class="image" src="images/dannybro.jpg" alt="dannybroflex"> -->
+      <div class="danny-img">
+      <img class="image" src="images/danny.png" alt="dannybroflex">
+      </div>
 
       <?php foreach ($coaches as $coach): ?>
       <div class="container">
