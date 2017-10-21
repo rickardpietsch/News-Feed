@@ -2,10 +2,6 @@
 
 declare(strict_types=1);
 
-// This is the file where you can keep your HTML markup. We should always try to
-// keep us much logic out of the HTML as possible. Put the PHP logic in the top
-// of the files containing HTML or even better; in another PHP-only file.
-
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
 
@@ -25,8 +21,13 @@ require __DIR__.'/functions.php';
 
     <div class="top-nav">
       <div class="left-nav">
-        <a href="https://www.facebook.com/FysikenCrossFit/">Facebook</a>
-        <a href="https://www.instagram.com/fysikencrossfit/">Instagram</a>
+        <a href="https://www.facebook.com/FysikenCrossFit/">
+        <img id=facebook src="images/facebook1.png" alt="facebook">
+        </a>
+        <a href="https://www.instagram.com/fysikencrossfit/">
+        <img id=instagram src="images/instagram.png" alt="facebook">
+        </a>
+
       </div>
       <div class="center-nav">
         <h1>Fysiken Crossfit Blog</h1>
