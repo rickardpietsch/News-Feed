@@ -23,7 +23,9 @@ require __DIR__.'/functions.php';
     <body>
       <div class="wrapper">
 
-      <h1>Fysiken Crossfit Blog</h1>
+        <div class="navigation">
+          <h1>Fysiken Crossfit Blog</h1>
+        </div>
 
       <h2>An epic way to make your body a huge temple</h2>
 
