@@ -21,10 +21,10 @@ require __DIR__.'/functions.php';
 
     <div class="top-nav">
       <div class="left-nav">
-        <a href="https://www.facebook.com/FysikenCrossFit/">
+        <a target="_blank" href="https://www.facebook.com/FysikenCrossFit/">
         <img id=facebook src="images/facebook1.png" alt="facebook">
         </a>
-        <a href="https://www.instagram.com/fysikencrossfit/">
+        <a target="_blank" href="https://www.instagram.com/fysikencrossfit/">
         <img id=instagram src="images/instagram.png" alt="facebook">
         </a>
 
@@ -33,8 +33,8 @@ require __DIR__.'/functions.php';
         <h1>Fysiken Crossfit Blog</h1>
       </div>
       <div class="right-nav">
-        <a id="fysiken" href="https://www.fysiken.nu/">www.fysiken.nu</a>
-        <p id="telephone">Tel: 031-10 69 30</p>
+        <a id="fysiken" target="_blank" href="http://www.fysiken.nu">www.fysiken.nu</a>
+        <a id="telephone" target="_blank" href="tel:+4631106930">Tel: 031-10 69 30</a>
       </div>
     </div>
 
@@ -42,7 +42,9 @@ require __DIR__.'/functions.php';
       <img class="image" src="images/dannybro.png" alt="dannybroflex">
     </div>
 
+    <div class="slogan">
     <h2>An epic way to make your body a huge temple</h2>
+    </div>
 
     <?php foreach ($coaches as $coach): ?>
       <div class="container">
@@ -55,6 +57,8 @@ require __DIR__.'/functions.php';
         </div>
       </div>
     <?php endforeach; ?>
+
+    <div class="footer">&copy; <?php echo date('Y') ?> Fysiken</div>
 
   </div>
 </body>

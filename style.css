@@ -7,6 +7,27 @@ body {
     height: 100%;
 }
 
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #8bc43e;
+  margin: 0;
+  padding: 1%;
+}
+
+h3 {
+  margin: 0px 0px 20px;
+}
+
+h4, p {
+  margin: 0;
+  padding: 1% 1%;
+  color: black;
+  background-color: #EBEBEB;
+}
+
 .wrapper {
   width: 100%;
   height: 100%;
@@ -45,13 +66,13 @@ body {
   align-items: flex-end;
 }
 
-h1, h3 {
-  color: #ffffff;
-}
-
-h2 {
-  color: black;
-  margin-bottom: 5%;
+.slogan {
+  border-style: dashed;
+  border-color: #8bc43e;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -62,30 +83,65 @@ h2 {
 .coach {
   width: 100%;
   height: 100%;
-  margin-bottom: 20px;
-  padding: 3px;
-  background-color: #8bc43e;
+  margin-top: 30px;
+  /*background-color: grey;*/
   border-style: solid;
-  border-color: #ffffff;
   border-width: 10px;
   border-radius: 15px;
-  color: #ffffff;
+  border-color: #8bc43e;
+  /*padding: 10px;*/
 }
+
+.title, .date, .counter {
+  width: 100%;
+  height: 100%;
+  background-color: #8bc43e;
+  color: #ffffff;
+  padding: 0 1%;
+}
+
+.content {
+  background-color: #8bc43e;
+}
+
+.author {
+  background-color: #8bc43e;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
 .counter {
-  width: 50%;
   display: flex;
   align-items: flex-end;
 }
+
 .counter:before {
+  content: url(images/likewhite.png);
+  display: inline-block;
+  margin-right: 1%;
+}
+
+/*.counter:before {
   content: url(images/like.png);
   display: inline-block;
   margin-right: 150px;
   zoom: 4%;
-}
+}*/
 
-.like {
-  width: 15%;
-  height: 15%;
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #8bc43e;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
 }
 
 .danny-img {
@@ -107,12 +163,15 @@ h2 {
 
 #fysiken {
   text-decoration: none;
+  font-size: 100%;
   color: #ffffff;
   margin-top: 3%;
   margin-right: 3%;
 }
 
 #telephone {
+  text-decoration: none !important;
+  font-size: 100%;
   color: #ffffff;
   margin-top: 0%;
   margin-bottom: 3%;
@@ -131,6 +190,9 @@ h2 {
   height: auto;
 }
 
+#date {
+  margin-top: 10px;
+}
 
 /* Animations! */
 @keyframes slide-in-blurred-top {
