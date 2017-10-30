@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-// Blog posts
+/* Blog posts! */
 $coaches = [
   [
     'id' => 1,
