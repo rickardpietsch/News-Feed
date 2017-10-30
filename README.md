@@ -6,5 +6,5 @@ Fysiken Crossfit blog
 2. Set your project folder as root directory in your personal web server (for example MAMP).
 
 ## Site testers
-Anne Edvinsson
-Joakim Sjöbäck
+* Anne Edvinsson
+* Joakim Sjöbäck
